@@ -1,7 +1,7 @@
 <script lang="ts">
-import WalletStores from 'web3w';
+import message from 'es-import-test';
 
-const {wallet} = WalletStores({});
+console.log(message());
 
 </script>
 <h1>Welcome to SvelteKit</h1>
